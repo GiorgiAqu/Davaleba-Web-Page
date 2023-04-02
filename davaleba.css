@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 85%;
+    margin: 0;
+    position: relative; top: -10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logo{
+    width: 78px;
+    height: 28px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar button{
+position: relative; left: 150px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#9893A3;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 4px;
+    width: 0%;
+    background: #9E99FF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.navbar ul li:hover:after{
+width: 100%;
+}
+
+
+
+.navbar button{
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 5px;
+border: solid #6C63FF;
+color: #fff;
+background-color: #6C63FF;
+font-weight: bold;
+cursor: pointer;}
+
+.content{
+font-size: 25px;
+position: relative; top: 40px; left: 40px;
+justify-content: space-around; 
+
+
+}
+.content button{
+position: relative; left: 15px; bottom: 340px;
+width: 200px;
+padding: 15px 0;
+text-align: center;
+border-radius: 5px;
+border: solid #6C63FF;
+color: #fff;
+background-color: #6C63FF;
+font-weight: bold;
+cursor: pointer;}
+
+.content p{
+color: #2F2E41;
+position: relative;left: 15px;
+font-weight: 700;
+font-size: 80px;
+line-height: 72px;  
+}
+.content h3{
+position: relative;left: 15px;
+font-size: 20px;
+font-style: italic;
+color: #9893A3;
+font-weight: lighter;
+margin-top: 30px;
+}
+.content img{
+position: relative; left: 500px; bottom: 340px;
+width: 30%;
+}
+.companiebi{
+display:flex;
+align-items: center;
+position: relative; left: 300px; bottom: 240px; 
+}
+.examination{
+font-size: 25px;
+position: relative; bottom: 200px;
+justify-content: space-around; 
+display: flex;
+}
+.examination p{
+color: #2F2E41;
+position: relative;left: 160px; top: 100px;
+font-weight: 700;
+font-size: 56px;
+line-height: 48px;
+}
+.examination h3{
+position: relative;right: 215px; top: 230px;
+font-size: 20px;
+font-style: italic;
+color: #9893A3;
+font-weight: lighter;
+}
+.examination button{
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(134,203,213,0) 50%, rgba(197,194,255,0.9360994397759104) 50%);
+width: 100px;
+height: 24px;
+position: relative; top: 330px; right: 580px;
+text-align: center;
+border: transparent;
+cursor: pointer;
+font-size: 17px;
+}
+.plan p{
+color: #2F2E41;
+position: relative;left: 530px; bottom: 90px;
+font-weight: 700;
+font-size: 56px;
+line-height: 48px;
+}
+.plan img{
+position: relative; left:160px; top: 1px;
+}
+.interested{
+position:relative; left: 250px; top: 30px ;
+width: 1000px;
+height: 200px;
+background-color: #2F2E41;
+border-radius: 3px;
+align-items: center;
+}
+.interested p{
+position: relative; left: 20px; top: 48px;
+font-size: 40px;
+color: #fff;}
+.interested button{
+    position: relative; bottom: 45px; left: 500px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    border: solid #6C63FF;
+    color: #fff;
+    background-color: #6C63FF;
+    font-weight: bold;
+    cursor: pointer;}
+.bottom{
+position: relative; top: 100px;
+width: 100%;
+height: 600px;
+background-color: #ECEBFF99;
+align-items:first baseline;
+margin: 0;
+display:flex;
+justify-content: space-around;
+}
+.bottom h3{
+position: relative; top: 250px;
+margin-bottom: 15px;
+}
+.bottom p{
+position: relative; top: 250px;
+margin-bottom: 10px;
+color: #9893A3;
+
+}
+.bottom img{
+position: relative; top: 250px;
+}
+.bottom2{
+    align-items:first baseline;
+    margin: 0;
+    gap: 60%;
+    display:flex;
+    justify-content: space-around;
+}
+.bottom2 h3{
+position: relative; 
+font-size: 10px;
+color: #9893A3;
+
+}
+.logo2{
+position: relative;
+}
